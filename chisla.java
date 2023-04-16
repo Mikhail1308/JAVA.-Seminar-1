@@ -14,6 +14,7 @@
 import java.util.Scanner;
 
 public class chisla {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int sum = 0, num;
@@ -24,4 +25,5 @@ public class chisla {
         System.out.println(sum);
         scanner.close();
     }
+
 }
