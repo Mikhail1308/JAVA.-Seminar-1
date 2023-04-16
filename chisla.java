@@ -22,5 +22,6 @@ public class chisla {
             sum += num;
         } while (num != 0);
         System.out.println(sum);
+        scanner.close();
     }
 }
